@@ -1,0 +1,301 @@
+
+
+@media (max-width: 246px) {
+  .brandalltext h3 {
+    font-size: 16px;
+    color: black;
+    font-weight: 300;
+    text-align: center;
+    font-weight: 800;
+}
+
+.brandalltext h5 {
+  font-size: 7px;
+  line-height: 20px;
+  color: #727272;
+  font-family: system-ui;
+  font-weight: 400;
+}
+
+
+p.textpart {
+  font-size: 13px;
+  color: #727272;
+}
+
+.col-md-5 img {
+  width: 144%;
+  padding-top: 39px;
+  padding-bottom: 17px;
+}
+.fact p {
+  font-size: 10px;
+  padding-bottom: 73px;
+  line-height: 20px;
+}
+
+.featureimage {
+  /* display: grid; */
+  grid-template-columns: repeat(5,5fr);
+  gap: 200px;
+  padding-top: 8px;
+  /* gap: 20px; */
+  padding-left: 113px;
+}
+
+.iconmain1 {
+  border: 1px solid #FF900E;
+  padding: 10px 30px 10px 30px;
+  margin-bottom: 14px;
+  margin-left: -46px;
+  z-index: 000px;
+}
+
+.textsponser h6 {
+  /* text-align: unset; */
+  /* margin-left: 35px; */
+  padding-left: 40px;
+}
+
+.textsponser p {
+  text-align: 23px;
+  padding-left: 44px;
+  font-size: 8px;
+}
+
+section.footer h3 {
+  color: #6c7279;
+  font-size: 8px;
+  padding-top: 20px;
+  padding-left: 66px;
+}
+}
+
+
+
+/* 2nd size css responsive */
+
+
+
+@media (max-width: 300px) {
+  
+  .brandalltext h3 {
+    font-size: 20px;
+    color: black;
+    font-weight: 300;
+    text-align: center;
+    font-weight: 800;
+}
+
+.featureleft h2 {
+  font-size: 22px;
+  
+  color: black;
+  font-weight: 900;
+  font-family: system-ui;
+  line-height: 32px;
+}
+
+p.textpart {
+  font-size: 11px;
+  color: #727272;
+}
+
+.col-md-5 img {
+  width: 115%;
+  padding-top: 49px;
+  padding-bottom: 29px;
+}
+
+.fact p {
+  font-size: 11px;
+  padding-bottom: 73px;
+  line-height: 20px;
+}
+
+
+.fact h6 {
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
+    font-family: system-ui;
+}
+
+.featureimage {
+
+  gap: 200px;
+  padding-left: 113px;
+}
+
+
+.featureimage {
+  /* display: grid; */
+  /* grid-template-columns: repeat(5,5fr); */
+  gap: 200px;
+  padding-left: 113px;
+}
+
+.iconmain1 {
+  border: 1px solid #FF900E;
+  
+  margin-bottom: 21px;
+  
+  padding: 10px 30px 10px 30px;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+  #header .header-content {
+    width: 90%; }
+
+  .nav-toggle {
+    display: block; }
+
+  .navigation {
+    position: fixed;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+    transition: opacity 0.5s, visibility 0s 0.5s; }
+    .navigation .primary-nav {
+      position: relative;
+      top: 45%;
+      -moz-transform: translateY(-45%);
+      -ms-transform: translateY(-45%);
+      -webkit-transform: translateY(-45%);
+      transform: translateY(-45%); }
+    .navigation li {
+      display: block;
+      margin-bottom: 20px; }
+    .navigation a {
+      display: block;
+      font-size: 25px;
+      margin: 0;
+      text-align: center; }
+
+  .person {
+    margin: 0 auto 50px; }
+    .person-content {
+      text-align: center; }
+    .person .social-icons li {
+      display: inline-block;
+      float: none;
+      margin-bottom: 5px; }
+
+  .testimonials blockquote {
+    padding: 20px 5% 0; }
+  .testimonials p {
+    font-size: 26px; }
+
+  .flex-control-nav {
+    bottom: 20px; } }
+@media screen and (max-width: 768px) {
+  .banner-text {
+    padding-top: 30%; }
+    .banner-text h1 {
+      font-size: 42px; }
+    .banner-text p {
+      font-size: 18px; }
+
+  .flexslider {
+    padding-bottom: 80px; }
+
+  .flex-control-nav {
+    width: 100%; }
+
+  .footer .footer-col {
+    margin-bottom: 50px; } }
+@media screen and (max-width: 640px) {
+  .banner-text {
+    padding-top: 35%; } }
+@media screen and (max-width: 480px) {
+  .banner-text {
+    padding-top: 45%; }
+    .banner-text h1 {
+      font-size: 32px; } }
+@media screen and (max-width: 320px) {
+  .banner-text {
+    padding-top: 55%; }
+
+  .testimonials blockquote {
+    padding: 20px 5% 0; }
+  .testimonials p {
+    font-size: 26px; } }
